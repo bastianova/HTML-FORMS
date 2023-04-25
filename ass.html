@@ -4,33 +4,44 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>GMC ASSIGNMENT</title>
   </head>
   <body>
+    <header>
+      <img src="images/images.jpg" alt="logo" >
+    <nav class="navbar">
+      <ul type="none">
+        <li><a href="x">Home</a></li>
+        <li><a href="y">About</a></li>
+        <li><a href="z">Work</a></li>
+        <li><a href="a">Resume</a></li>
+        <li><a href="b">Contact</a></li>
+      </ul>
+    </nav>
+    </header>
     <h2>GMC ASSIGNMENT</h2>
     <form>
       <div>
-        <label>Fullname:</label>
+        <label class="label">Fullname:</label>
         <input type="text" name="Fullname" placeholder="username" required />
       </div>
       <div>
-        <br />
-        <label>Email:</label>
+        <label class="label">Email:</label>
         <input type="email" name="email" placeholder="johndoe@gmail.com" />
       </div>
       <div>
-        <br />
-        <label>Telephone:</label>
+        
+        <label class="label">Telephone:</label>
         <input type="tel" name="number" required />
       </div>
       <div>
-        <br />
-        <label>D.O.B:</label>
+        
+        <label class="label">D.O.B:</label>
         <input type="date" name="number" />
       </div>
       <div>
-        <br />
-        <label for="Gender">Gender:</label>
+        <label for="Gender" class="label">Gender:</label>
         <select name="Gender" id="Gender">
           <option value="Male">Male</option>
           <option value="Female">Female</option>
@@ -38,18 +49,17 @@
         </select>
       </div>
       <div>
-        <br />
-        <label>Priority:<br /></label>
-        <input type="radio" />High<br /><input type="radio" />Medium<br />
-        <input type="radio" />Low<br />
+        <label class="label">Priority:</label>
+        <input type="radio" class="label" />High<input type="radio" class="label" />Medium
+        <input type="radio" class="label"/>Low
       </div>
       <div>
-        <br />
-        <label>Password:</label>
+        
+        <label class="label">Password:</label>
         <input type="password" name="password" required />
       </div>
-      <div>
-        <br />Feedback:<br />
+      <div class="label">
+       Feedback:
         <textarea
           name="Feedback"
           id=""
@@ -59,25 +69,24 @@
         ></textarea>
       </div>
       <div>
-        <br />
-        <label for="disclaimer"
-          >By clicking the submit button below, I hereby agree to and accept all
+         <label for="disclaimer" class="disclaimer">By clicking the submit button, I hereby agree and accept all
           the terms and condition.
         </label>
         <input type="checkbox" name="t&c" required />
       </div>
-      <div>
-        <br />
+      <div class="label">
+        
         <input type="submit" value="Submit Form" />
       </div>
     </form>
-    <article><br/>
-      <b>HOW TO MAKE MY BEST FOOD (DRINKING GARRI)</b>
-      <p>1. Pour water into the cereal bowl containing the dry Garri.</p>
-      <p>2. Sieve out any particle that floats.</p>
-      <p>3.Pour more fresh water into the Garri.</p>
-      <p>4.Then add sugar, ice cubes (milk if using)</p>
-      <p>
+    <article >
+      
+      <b class="steps">HOW TO MAKE MY BEST FOOD (DRINKING GARRI)</b>
+      <p class="steps" >1. Pour water into the cereal bowl containing the dry Garri.</p>
+      <p class="steps">2. Sieve out any particle that floats.</p>
+      <p class="steps">3.Pour more fresh water into the Garri.</p>
+      <p class="steps">4.Then add sugar, ice cubes (milk if using)</p>
+      <p class="steps">
         5.Add the groundnuts or any other topping you prefer. Then relax and
         enjoy
       </p>
