@@ -1,0 +1,46 @@
+header img{
+    height: 90px;
+    border-radius: 5px;
+}
+header{
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+nav{
+    height: 100%;
+    float: right;
+    
+}
+nav li{
+    background-color: rgb(109, 194, 175);
+    display: inline;
+    border-radius: 5px;
+    text-align: center;
+    padding: 14px 14px;   
+
+}
+ body{
+    background-color: rgb(109, 194, 175) ;
+    font-family: roboto, sans-serif;
+}
+.label{
+    border: 2px;
+    margin: 10px;
+    padding: 10px;
+    width: 60px;
+    display: inline-block;
+}
+    
+.disclaimer{
+    border: 2px;
+    margin: 10px;
+    padding: 10px;
+    width: 60px;
+}
+.steps{
+    color: rgb(46, 1, 48);
+    border: 2px;
+    margin: 10px;
+    padding: 10px;
+   
+}
